@@ -1,0 +1,23 @@
+{
+  "name": "yurineves92/csv",
+  "description": "Manipulating data in csv file with PHP",
+  "authors": [
+      {
+          "name": "Yuri Neves",
+          "email": "yurineves92@gmail.com"
+      }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "coffeecode/datalayer": "1.1.*",
+    "fzaninotto/faker": "1.8.*",
+    "league/csv": "9.3.*"
+  }
+}
